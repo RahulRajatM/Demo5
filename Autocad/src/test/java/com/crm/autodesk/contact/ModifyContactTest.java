@@ -18,4 +18,9 @@ public class ModifyContactTest {
 		Reporter.log("CONTACT DELETED", true);
 	}
 
+	@Test
+	public void deleteContact()
+	{
+		Reporter.log("Contact Deleted",true);
+	}
 }
