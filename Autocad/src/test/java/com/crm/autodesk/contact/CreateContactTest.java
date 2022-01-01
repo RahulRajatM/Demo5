@@ -11,12 +11,18 @@ public class CreateContactTest {
 	public void createContactTest()
 	{
 		Reporter.log("Contact created",true);
-		String url=System.getProperty("url");
+		/*String url=System.getProperty("url");
 		String browser=System.getProperty("browser");
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			WebDriver driver=new ChromeDriver();
 			driver.get(url);
-		}
+		}*/
+	}
+
+	@Test
+	public void deleteCustomer()
+	{
+		Reporter.log("Customer Deleted", true);
 	}
 }
