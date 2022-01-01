@@ -21,6 +21,8 @@ public class ModifyContactTest {
 	@Test
 	void main()
 	{
-
+	}
+	public static void main(String[] args) {
+		System.out.println("Modify class");
 	}
 }
