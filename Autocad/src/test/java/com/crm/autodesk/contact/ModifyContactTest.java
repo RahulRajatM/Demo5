@@ -11,16 +11,14 @@ public class ModifyContactTest {
 	{
 		Reporter.log("Contact modifies", true);
 	}
-	
-	@Test
-	public void deleteContact()
-	{
-		Reporter.log("CONTACT DELETED", true);
-	}
 
 	@Test
 	public void deleteContact()
 	{
 		Reporter.log("Contact Deleted",true);
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Modify class");
 	}
 }
